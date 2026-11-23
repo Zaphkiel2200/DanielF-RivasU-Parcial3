@@ -15,6 +15,8 @@ export class LoanRequestEntity {
   @ManyToOne(() => ToolEntity, { nullable: false })
   @JoinColumn({ name: "tool_id" })
   tool!: ToolEntity;
+
+  
 }
 
 

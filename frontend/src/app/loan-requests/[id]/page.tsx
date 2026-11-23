@@ -3,6 +3,8 @@ import Link from "next/link";
 type ReceiptPageProps = { params: Promise<{ id: string }> };
 
 export default async function ReceiptPage({ params }: ReceiptPageProps) {
+  const {} 
+  const {}
   // TODO FRONT-C: leer params y consultar el detalle con apiFetch.
   // TODO FRONT-C: mostrar ID, purpose, days y tool.name de la solicitud recibida.
   void params;
@@ -17,4 +19,3 @@ export default async function ReceiptPage({ params }: ReceiptPageProps) {
     </main>
   );
 }
-
